@@ -4,7 +4,8 @@
   "description": "this project to artex",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app.js",
+    "test": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
