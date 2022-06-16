@@ -7,4 +7,5 @@ router.post('/login', ctrl.login)
 router.get('/users', ctrl.getUser)
 
 
-module.export = router
+module.exports = router
+console.log('[authRouter] All OK')
